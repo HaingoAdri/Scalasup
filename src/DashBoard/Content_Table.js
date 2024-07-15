@@ -96,7 +96,7 @@ function Content_Table() {
                     <button onClick={handlePreviousPage} className="btn btn-light me-2" disabled={currentPage === 1}>
                         <FaChevronLeft />
                     </button>
-                    <span className="badge bg-primary rounded-circle p-3">{currentPage}</span>
+                    <span className="badge bg-success rounded-circle p-3" style={{ width:'45px', height:'45px'}}>{currentPage}</span>
                     <button onClick={handleNextPage} className="btn btn-light ms-2" disabled={currentPage === totalPages}>
                         <FaChevronRight />
                     </button>
