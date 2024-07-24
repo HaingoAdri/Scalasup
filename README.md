@@ -1,70 +1,103 @@
-# Getting Started with Create React App
+# Educenter By Themefisher
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Educenter is an educational website template with affluent, contemporary, modern and trendy features for your majestic presence in web with a simple user interface.
 
-## Available Scripts
+<!-- demo -->
+## Example Site
 
-In the project directory, you can run:
+| [![](screenshots/homepage.png)](https://demo.themefisher.com/educenter/index.html) | [![](screenshots/course.png)](https://demo.themefisher.com/educenter/courses.html) | [![](screenshots/events.png)](https://demo.themefisher.com/educenter/events.html) |
+|:---:|:---:|:---:|
+| **Homepage 1**  | **Course**  | **Events**  |
+| [![](screenshots/teacher.png)](https://demo.themefisher.com/educenter/teacher.html) | [![](screenshots/notice.png)](https://demo.themefisher.com/educenter/notice.html) | [![](screenshots/blog.png)](https://demo.themefisher.com/educenter/blog.html) |
+| **Teacher** | **Notice** | **Blog** |
 
-### `npm start`
+👉🏻[View Live Preview](https://demo.themefisher.com/educenter/)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<!-- download -->
+## Download And installation
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Download this template from [Github](https://github.com/themefisher/revolve/archive/main.zip)
 
-### `npm test`
+<!-- installation -->
+### Basic Usages
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+After downloading the template, you can simply edit the HTML and CSS files from the `theme` folder. To preview the changes you make to the code, you can open the index.html file in your web browser.
 
-### `npm run build`
+### Advanced Usage
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+For advanced usage, you have some prerequisites to install. Then you can run it on your localhost. You can view the package.json file to see which scripts are included.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+#### Install prerequisites (once for a machine)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+* **Node Installation:** [Install node js](https://nodejs.org/en/download/)
+* **Gulp Installation:** Install gulp globally from your terminal
 
-### `npm run eject`
+```
+npm install --global gulp-cli
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Or visit the original [Gulp docs](https://gulpjs.com/docs/en/getting-started/quick-start)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+#### Local setup
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+After successfully installing those dependencies, open this theme with any IDE [[VS Code](https://code.visualstudio.com/) recommended], and then open the internal terminal of IDM [vs code shortcut <code>ctrl/cmd+\`</code>]
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+* Install dependencies
 
-## Learn More
+```
+npm install
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+* Run locally
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```
+npm run dev
+```
 
-### Code Splitting
+After that, it will open up a preview of the template in your default browser, watch for changes to source files, and live reload the browser when changes are saved.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+#### Production Build
 
-### Analyzing the Bundle Size
+After finishing all the customization, you can create a production build by running this command.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+```
+npm run build
+```
 
-### Making a Progressive Web App
+Now you get a `theme` folder that has all the changes you have made. you can use this folder as your main theme.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+👉🏻 [visit documentation](https://docs.themefisher.com/revolve/)
 
-### Advanced Configuration
+<!-- reporting issue -->
+## Reporting Issues
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+We use GitHub Issues as the official bug tracker for the Meghna Template. Please Search [existing issues](https://github.com/themefisher/Educenter-Bootstrap-Education-Template/issues). It’s possible someone has already reported the same problem.
+If your problem or idea has not been addressed yet, feel free to [open a new issue](https://github.com/themefisher/Educenter-Bootstrap-Education-Template/issues).
 
-### Deployment
+<!-- support -->
+## Technical Support or Questions (Paid)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+If you have questions or need help integrating the product please [contact us](mailto:mehedi@themefisher.com) instead of opening an issue.
 
-### `npm run build` fails to minify
+<!-- licence -->
+## License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Copyright (c) 2016 - Present, Designed & Developed by [Themefisher](https://themefisher.com)
+
+**Code License:** Released under the [MIT](https://github.com/themefisher/revolve/blob/main/LICENSE) license.
+
+**Image license:** The images are only for demonstration purposes. They have their license, we don't have permission to share those images.
+
+<!-- resources -->
+## Resources
+
+Some third-party plugins that we used to build this template. Please check their license.
+
+* **Bootstrap v4.5**: <https://getbootstrap.com/docs/4.5/getting-started/introduction/>
+* **Jquery v3.5.1**: <https://jquery.com/download/>
+* **Themify Icons**: <https://themify.me/themify-icons>
+* **Google Fonts**: <http://fonts.google.com/>
+* **AOS**: <https://michalsnik.github.io/aos/>
+* **Venobox**: <https://veno.es/venobox/>
+* **Slick**: <https://kenwheeler.github.io/slick/>
+* **Filterizr**: <https://yiotis.net/filterizr/>
